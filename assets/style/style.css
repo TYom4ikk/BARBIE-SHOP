@@ -1,7 +1,9 @@
 @media screen and(max-width: 500px) {
-
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url("../image/image 1.png");
     background-repeat: no-repeat;
@@ -20,6 +22,106 @@ body{
   display: flex;  
 }
 
-.ul{
-    display: flex;
+
+#Barbie_Logo{
+    left: 10%;
 }
+
+.top_panel li{
+    margin:  60px;
+    color: pink;
+    display: inline;
+    position: relative;
+    top: 0px;
+}
+
+.top_panel li:hover{
+    color:aqua;
+}
+
+#Login{
+    color: white;
+    font-size: 120%;
+}
+
+#Sign_up{
+    color: white;
+    font-size: 120%;
+}
+
+#Login:hover{
+    color: black;
+    border: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    background: rgb(82, 255, 213, 1);
+    padding: 20px 20px 20px 20px;
+    transition: 500ms;
+}
+
+#Sign_up:hover{
+    color: black;
+    border: 0px;
+    border-radius: 25px;
+    border-style:solid;
+    background: rgb(82, 255, 213, 1);
+    padding: 20px 20px 20px 20px;
+    transition: 500ms;
+}
+
+.top_panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Задаем прозрачный фон */
+    backdrop-filter: blur(10px); /* Применяем размытие */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    list-style: none;
+  }
+
+.ellipse{
+    width: 1000px; /* Ширина эллипса */
+    height: 1000px; /* Высота эллипса */
+    position: absolute;
+    top: 40%;
+    left: -13%;
+
+    border-radius: 50%; /* Задает форму эллипса с помощью border-radius */
+    background-color: rgba(255, 0, 72, 0.6); /* Цвет фона с прозрачностью */
+    filter: blur(5px); /* Фильтр размытия */
+}
+
+.small_ellipse{
+    width: 300px; /* Ширина эллипса */
+    height: 300px; /* Высота эллипса */
+    position: absolute;
+    top: 17%;
+    left: 5%;
+
+    border-radius: 50%; /* Задает форму эллипса с помощью border-radius */
+    background-color: rgba(226, 34, 53, 0.9); /* Цвет фона с прозрачностью */
+    filter: blur(5px); /* Фильтр размытия */   
+}
+
+.Ellipse_Text{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.Barbie_Shop{
+    font-size: 300%;
+}
+
+.Long_text{
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+
+/* CURSOR POINTER*/
