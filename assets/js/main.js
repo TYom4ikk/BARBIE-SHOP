@@ -37,7 +37,40 @@ function Rename(arr){
 let li = document; //Искать все документы 
 */
 
+alert("Welcome to Barbie site");
+
 let navigation = [{
-    "image" : "assets/image/dolls/image 15 (1).png",
+    "image" : "assets/image/top panel/fi-rr-home.png",
     "text" : "Home"
-}]
+},
+{
+    "image" : "assets/image/top panel/fi-rr-makeup-brush.png",
+    "text" : "Accessoties"
+},
+{
+    "image" :"assets/image/top panel/fi-rr-gallery.png",
+    "text": "Gallery"
+},
+{
+    "image":"assets/image/top panel/fi-rr-shop.png",
+    "text":"Shop"
+},
+{
+    "image":"assets/image/top panel/fi-rr-headset.png",
+    "text":"Support"
+}
+];
+
+function ShowNav(navigation){
+    if(navigation.length>0){
+        for(let i = 0; i<navigation.length; i++){
+            console.log(navigation[i].name);
+        }
+        return "End";
+    }
+    else{
+        return "No Names";
+    }
+}
+
+ShowNav(navigation);
