@@ -1,7 +1,7 @@
 //let внутри функции
 //var глобально
 //нет строгой типизации
-let name_param = "";
+/*let name_param = "";
 let arr = ["","", 1, function name(){}];
 let obj = { "asd": 12, };
 
@@ -20,7 +20,7 @@ let heroes = [{
 }];
 
 console.log(heroes); /**/
-console.log(heroes[0].name);
+/*console.log(heroes[0].name);
 
 function Rename(arr){
     if(arr.length>0){
@@ -35,6 +35,7 @@ function Rename(arr){
 }
 
 let li = document; //Искать все документы 
+*/
 
 let navigation = [{
     "image" : "assets/image/dolls/image 15 (1).png",
