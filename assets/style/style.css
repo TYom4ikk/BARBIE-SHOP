@@ -131,3 +131,17 @@ body{
 }
 
 /* CURSOR POINTER*/
+
+#imageContainer{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    margin-top: 500px;
+    margin-left: 50px;
+    width: 700px;
+    justify-content: space-around;
+}
+
+.item{
+    margin: 0 40px;
+}
